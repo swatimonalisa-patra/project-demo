@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body{
+    scroll-behavior:smooth;
+}
+
+   
+.navbar-brand{
+    height:4.375rem;
+    width:3.125rem;
+    
+    
+}
+a img{
+    height:4.375rem;
+    width:10.625rem;
+    margin-left: 5.625rem;
+    
+}
+
+.numbers{
+    margin-left:21.25rem;
+    font-size: 0.75rem;
+    font-weight:bold;
+    color:rebeccapurple;
+    font-style: oblique;
+    
+    
+}
+
+.nav-item{
+    font-size: 0.75rem;
+    color:purple;
+    font-weight: bold;
+
+    
+}
+
+nav{
+    background: #fff;
+    left:0;
+    position:sticky;
+    top:0;
+    z-index:9999;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+
+
+}
+
+.white{
+    background-color: white;
+}
+
+
+
+.carousel-item{
+    transition: .1 ease-in-out left;
+    
+}
+
+.carousel-caption{
+    top: 9.375rem;
+    
+    
+}
+
+.carousel-item img{
+    height:34.375rem;
+}
+
+.carousel-caption h1{
+    background-color: white;
+    color:rebeccapurple;
+}
+
+.carousel-caption p{
+    background-color: white;
+    color:#983bf5e1;
+    margin-top:3.75rem;
+}
+
+.second img{
+    height:3.125rem;
+    width:3.125rem;
+    margin-left: 44%;
+    margin-top:1.875rem;
+    
+}
+
+.second{
+    padding:3.125rem;
+}
+
+    
+
+
+.card{
+    background-color: #a831ec;
+    border:0.625rem solid grey;
+    
+    width:28.125rem;
+
+}
+
+.card:hover{
+    background-color:grey;
+}
+
+
+/* .card-title1{
+    margin-left:20px;
+}
+.card-title2{
+    margin-left: 70px;
+
+}
+
+.card-title3{
+    margin-left:20px;
+} */
+/* margin-left: 50%; */
+
+.card-body{
+    text-align: center;
+}
+
+.card-body h3{
+        margin-top: 1.25rem;
+        color:black;
+        background-color: whitesmoke;
+
+}
+
+.card-body p{
+
+    color:black;
+    background-color: whitesmoke;
+
+    
+}
+
+.third{
+    height:31.25rem;
+    width:100%;
+    background-color: #a831ec;
+    margin-bottom: 1.25rem;
+}
+
+.third img{
+    height:18.75rem;
+    width:18.75rem;
+    margin-left: 30%;
+    margin-top: 3.125rem;
+    
+
+}
+
+.text{
+    margin-top: 3.125rem;
+    margin-left: 0%;
+    text-align: center;
+    
+}
+
+.text h1{
+    font-size:2.938rem;
+    color:black;
+    font-weight: bold;
+    text-shadow:0.25rem 0.25rem 0.125rem lavender !important;
+}
+
+.text span{
+    color:lavender;
+    font-size:2.938rem;
+    font-weight: bold;
+    text-shadow:0.25rem 0.25rem 0.125rem black;
+
+}
+
+.card2{
+    background-color: honeydew;
+    border-radius: 50%;
+    height:22.5rem;
+    text-align:center;
+    width:26.25rem;
+    padding:1.875rem;
+    box-shadow: 0.5rem 0.5rem 0.125rem #a831ec;
+}
+
+
+
+
+.card-bodyy p{
+    margin-top: 3.75rem;
+    justify-content: center;
+    vertical-align: middle !important;
+}
+
+.card-bodyy p:hover{
+    color:white;
+}
+
+.fourth{
+    padding:5rem;
+}
+
+.card2:hover{
+    background-color: #a831ec;
+    
+}
+
+.fifth img{
+    height:34.375rem;
+    width:100%;
+}
+
+.text-block{
+    position:absolute;
+    top:181.25rem;
+    right:14.375rem;
+    background-color:#a831ec;
+    color:#c682ee;
+    padding-left:9.375rem;
+    padding-right:9.375rem;
+    padding-top: 3.438rem;
+    padding-bottom: 3.438rem;
+    text-shadow:0.25rem 0.25rem 0.25rem black ;
+    opacity:0.8;
+}
+
+.card3{
+    border:0.031rem solid #bebaba;
+    width:25rem;
+    height:13.125rem;
+}
+
+.card-body3{
+    text-align: center;
+}
+
+.sixth{
+    padding:5rem;
+}
+
+.card-title1{
+    background-color: #5becec;
+    padding-top: 0.938rem;
+    padding-bottom: 0.938rem;
+    color:white;
+    font-weight:bold;
+}
+
+.card-title1:hover{
+    font-size:xx-large;
+}
+
+
+
+.card-title2{
+    background-color: #ee9e5d;
+    padding-top: 0.938rem;
+    padding-bottom: 0.938rem;
+    color:white;
+    font-weight:bold;
+}
+
+.card-title2:hover{
+    font-size:xx-large;
+}
+
+.card-title3{
+    background-color: #74ecaa;
+    padding-top: 0.938rem;
+    padding-bottom: 0.938rem;
+    color:white;
+    font-weight:bold;
+}
+
+.card-title3:hover{
+    font-size:xx-large;
+}
+
+.seventh{
+    height:5rem;
+    width:100%;
+    background-color: black;
+}
+
+.seventh p{
+    color:honeydew;
+    padding-top:1.875rem;
+}
+
+/* ========================================================= */
+
+@media(max-width:998px) {
+    html{
+        font-size:55%;
+    }
+}
+
+/* =========================================================== */
+
+@media(max-width:768px){
+    html{
+        font-size:50%;
+    }
+}
+
+/* =========================================================== */
+
+@media(max-width:360px){
+    html{
+        font-size:60%;
+    }
+
+    .card{
+        margin-top: 10px;
+    }
+
+    .card2{
+        margin-top: 10px;
+    }
+
+    .card3{
+        margin-top: 10px;
+    }
+
+    .text-block{
+        top:3150px;
+        right:10px;
+    }
+
+    .third{
+        height:480px;
+    }
+}
+
+/* ======================================================================= */
+
+@media(max-width:320px){
+    html{
+        font-size:55%;
+    }
+
+    .text-block{
+        top:2890px;
+    }
+}
+
+/* ============================================================================= */
+
+
